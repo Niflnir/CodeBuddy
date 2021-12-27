@@ -8,11 +8,10 @@ import WithSubnavigation from "../components/WithSubnavigation";
 const HomeScreen = () => {
   return (
     <ChakraProvider>
-      <WithSubnavigation />
+      <Navbar />
       <SimpleGrid columns={{ sm: 1, md: 1 }} p="15%" textAlign="center">
-        <Link w="22.5%" overflow="hidden" as={RouterLink} to="/reacttips">
+        <Link w="22.5%" as={RouterLink} to="/reacttips">
           <Box
-            overflow="hidden"
             fontSize={20}
             fontFamily="cursive"
             w="200px"

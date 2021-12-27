@@ -1,27 +1,22 @@
-import { Flex, Spacer } from "@chakra-ui/react";
+import { Flex, Box, Link } from "@chakra-ui/layout";
+import { Link as RouterLink } from "react-router-dom";
 import React from "react";
-import WithSubnavigation from "./WithSubnavigation";
-import Postit from "./Postit";
 
 const Navbar = () => {
   return (
-    <div>
-      <WithSubnavigation />
-
-      <Flex>
-        {/* first box */}
-        <Postit />
-        <Spacer />
-        <Postit />
-        <Spacer />
-        <Postit />
-      </Flex>
-      <Flex justifyContent="space-between">
-        <Postit />
-        <Postit />
-        <Postit />
-      </Flex>
-    </div>
+    <Flex
+      width="100%"
+      height="20%"
+      padding="10px 0px 10px 30px"
+      backgroundColor="black"
+      color="white"
+      flexDirection="row"
+    >
+      CodeClown
+      <Link as={RouterLink} to="/reacttips">
+        <Box paddingLeft={20}>React</Box>
+      </Link>
+    </Flex>
   );
 };
 

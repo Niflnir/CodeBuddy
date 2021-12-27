@@ -24,8 +24,7 @@ export default makeStyles({
   overlay: {
     position: "absolute",
     bottom: "0px",
-    right: "20px",
-    color: "white",
+    right: "10px",
   },
   overlay2: {
     position: "absolute",
@@ -39,13 +38,19 @@ export default makeStyles({
   details: {
     display: "flex",
     justifyContent: "space-between",
-    margin: "20px",
+    margin: "10px",
+  },
+  details1: {
+    display: "flex",
+    justifyContent: "space-between",
+    marginLeft: "15px",
+    marginTop: "50px",
   },
   title: {
-    padding: "0 16px",
+    padding: "0 15px",
   },
   cardActions: {
-    padding: "0 16px 8px 16px",
+    paddingTop: "10px",
     display: "flex",
     justifyContent: "space-between",
   },
