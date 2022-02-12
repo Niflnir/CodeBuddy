@@ -1,4 +1,4 @@
-# CodeBuddy
+## CodeBuddy
 
 ## Installation and Setup Instructions 
 
